@@ -94,6 +94,11 @@ discord-tracker-bots/
 └── README.md              # This documentation
 ```
 
+### **Ask Server Owner for Bot Invite Permissions**
+The server owner needs to:
+1. Go to Server Settings → Integrations → Bots
+2. Click "Add Bot" and select your bot
+3. Grant necessary permissions
 ## 🔒 Legal & Ethical Use
 
 ### ✅ **Allowed Uses**
