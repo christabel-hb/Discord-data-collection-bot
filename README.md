@@ -13,16 +13,25 @@ A collection of three specialized Discord bots designed to track and analyze **y
 ## 🤖 Available Bots
 
 ### 1. **Single Server Bot** (`single_server_bot.py`)
-**Purpose:** Personal message tracking in one server  
-**Best for:** Individuals who want to keep a log of their own messages and replies in a single community.
+- Simple, single-server tracking
+- Only tracks YOUR messages and replies
+- Basic commands: `!hello`, `!save`, `!stats`
+- Auto-saves to JSON and CSV
+- Perfect for personal use
 
-### 2. **Multi-Server Bot** (`multi_server_bot.py`)  
-**Purpose:** Separate tracking across multiple servers  
-**Best for:** Users active in several Discord communities who want organized, server-specific data collection.
+### 2. **Multi-Server Bot** (`multi_server_bot.py`)
+- Tracks data separately for each server
+- Server-specific settings and prefixes
+- Commands: `!hello`, `!save`, `!stats`, `!settings`, `!toggle`
+- Auto-saves in server-specific folders
+- Great for managing multiple communities
 
 ### 3. **Commands Bot** (`commands_bot.py`)
-**Purpose:** Advanced tracking with modern Discord features  
-**Best for:** Power users who want slash commands, interactive menus, and professional data management.
+- Modern bot with **slash commands** (`/collect`, `/export`, `/stats`)
+- Interactive buttons and menus
+- Rate limiting and permission checks
+- Background auto-backup
+- Professional features for advanced users
 
 ## ✨ Key Features
 
@@ -45,6 +54,21 @@ A collection of three specialized Discord bots designed to track and analyze **y
 - Compliant with Discord Terms of Service when used properly
 
 ## 🚀 Quick Start
+
+### Prerequisites
+1. Python 3.8+
+2. Discord Bot Token
+3. Your Discord User ID
+
+### Installation
+```bash
+# Install requirements
+pip install -r requirements.txt
+
+# Edit each bot file:
+# 1. Replace YOUR_BOT_TOKEN_HERE with your token
+# 2. Replace 1213535917495820348 with your Discord ID
+```
 
 ### Step 1: Get Your Discord Credentials
 1. **Your Discord User ID** (enable Developer Mode in Discord settings)
